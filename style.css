@@ -11,10 +11,25 @@
     border: 10px;
 }
 
+.menu li {
+    background-color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
 a {
     text-decoration: none;
-    color: aliceblue;
+    color: black;
     font-size: 25px;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+li:hover {
+    transform: scale(1.5);
+    transition: all 1s;
 }
 
 body {
@@ -113,5 +128,8 @@ h3 {
     color: aliceblue;
 }
 
-
-    
+@media screen and (max-width: 600px) {
+   .imágen {
+       display: block;
+   }
+}
